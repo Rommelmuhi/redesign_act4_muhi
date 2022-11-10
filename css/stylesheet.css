@@ -1,0 +1,281 @@
+html{
+    width: auto;
+    height: auto;
+    left: 0px;
+    top: 0px;
+
+    background: #720E9E;
+}
+
+.card{
+    position: absolute;
+    width: 1000px;
+    height: auto;
+    bottom: 2rem;
+    left: 366px;
+    top: 2rem;
+
+    background: linear-gradient(180deg, rgba(47, 16, 80, 0.2) 14.06%, rgba(0, 0, 0, 0) 100%), #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px 0 0 20px;
+    z-index: -1;
+}
+
+
+
+img{
+    position: absolute;
+    width: 50%;
+    height: 571px;
+    right: 0;
+    z-index: 1;
+}
+
+.background-Y{
+    position: absolute;
+    width: 700px;
+    height: 596px;
+    left: -32px;
+    top: -10px;
+    z-index: -2;
+}
+
+.main-title{
+    position: absolute;
+    width: 150px;
+    left: 11rem;
+    height: auto;
+    top: 3.5rem;
+
+    z-index: 3;
+
+}
+
+.subtitle{
+    position: absolute;
+    width: 50%;
+    top: 4.5rem;
+    text-align: center;
+
+    font-family: 'Quando';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    z-index: 3;
+/* identical to box height */
+
+
+color: #6001D2;
+}
+
+.mini-title{
+    position: absolute;
+    width: 50%;
+    top: 150px;
+    text-align: center;
+
+    font-family: 'Josefin Sans Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 50px;
+    z-index: 3;
+/* identical to box height */
+
+
+    color: #808080;
+}
+
+.paragraph{
+    position: absolute;
+    width: 50%;
+    top: 208px;
+    text-align: center;
+
+    font-family: 'Righteous';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    z-index: 3;
+/* identical to box height */
+
+
+    color: #808080;
+
+}
+
+.image-title{
+    position: absolute;
+    width: 343px;
+    height: 114px;
+    margin-left: 2rem;
+    left: 50%;
+    top: 393px;
+    z-index: 3;
+
+    font-family: 'ABeeZee';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 57px;
+
+    color: #FFFFFF;
+
+}
+
+.acc{
+    box-sizing: border-box;
+    border-style:hidden;
+    outline: none;
+    margin-top: 1.5rem;
+    display: flex;
+    flex-direction: column;
+
+    position: relative;
+    width: 354px;
+    top: 258px;
+    left: 2rem;
+    text-align: left;
+
+    font-size: 1rem;
+    border-bottom: 1px solid #4691f6;
+    background: hsla(0, 0%, 100%, 0);
+}
+
+.forgot{
+    position: absolute;
+    width: 50%;
+    left: 2rem;
+    top: 350px;
+
+    font-family: 'Righteous';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 25px;
+    z-index: 3;
+}
+
+a:link{
+    color: #6001D2;
+    text-decoration: none;
+
+}
+
+button{
+    position: absolute;
+    width: 100px;
+    height: 43px;
+    right: 34rem;
+    top: 370px;
+    border: rgba(255, 255, 255, 0);
+    z-index: 3;
+
+    background: #0067FA;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+button:hover{
+    background: #6001D2;
+    transition: 1s;
+}
+
+.next-button{
+    color: #FFFFFF;
+}
+
+.checkbox{
+    position: absolute;
+    width: 50%;
+    height: 25px;
+    left: 1rem;
+    bottom: 1rem;
+    list-style: none;
+
+    font-family: 'Righteous';
+    font-style: normal;
+    font-weight: 400;
+    font-size: .8rem;
+    line-height: 25px;
+    z-index: 3;
+/* identical to box height */
+
+
+    color: #0067FA;
+
+}
+
+.help{
+    position: absolute;
+    width: 50%;
+    height: 25px;
+    right: 8rem;
+    bottom: 1rem;
+
+    font-family: 'Righteous';
+    font-style: normal;
+    font-weight: 400;
+    font-size: .8rem;
+    line-height: 25px;
+    z-index: 3;
+/* identical to box height */
+
+
+    color: #0067FA;
+
+}
+
+.language{
+    position: absolute;
+    width: 132px;
+    height: 25px;
+    left: 2rem;
+    top: 590px;
+    outline: none;
+    cursor: pointer;
+
+    font-size: 14px;
+    background-color: #ffffff;
+    border-radius: 1rem;
+    text-align: left;
+    display: flex;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(5px);
+    box-shadow: 0 25px 45px rgba(0, 0, 0, 0.2);
+    padding: 4px 15px;
+    border: rgba(255, 255, 255, 0);
+
+}
+
+
+select option[value="English (US)"]{
+    background-color: #720E9E;
+}
+
+select option[value="Tagalog"]{
+    background-color: #720E9E;
+}
+
+
+/* -----
+SVG Icons - svgicons.sparkk.fr
+----- */
+
+.svg-icon {
+    width: 1em;
+    height: 1em;
+  }
+  
+  .svg-icon path,
+  .svg-icon polygon,
+  .svg-icon rect {
+    fill: #4691f6;
+  }
+  
+  .svg-icon circle {
+    stroke: #4691f6;
+    stroke-width: 1;
+  }
