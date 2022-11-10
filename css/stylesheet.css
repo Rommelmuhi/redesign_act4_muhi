@@ -21,17 +21,15 @@ html{
     z-index: -1;
 }
 
-
-
-img{
+.card--absolute{
     position: absolute;
-    width: 50%;
-    height: 571px;
-    right: 0;
-    z-index: 1;
 }
 
-.background-Y{
+.card--half{
+    width: 50%;
+}
+
+.background-design{
     position: absolute;
     width: 700px;
     height: 596px;
@@ -40,8 +38,13 @@ img{
     z-index: -2;
 }
 
-.main-title{
-    position: absolute;
+.card__box__img-nature{
+    height: 100%;
+    right: 0;
+    z-index: 1;
+}
+
+.card__box__main-title{
     width: 150px;
     left: 11rem;
     height: auto;
@@ -51,9 +54,7 @@ img{
 
 }
 
-.subtitle{
-    position: absolute;
-    width: 50%;
+.card__box__subtitle{
     top: 4.5rem;
     text-align: center;
 
@@ -69,9 +70,7 @@ img{
 color: #6001D2;
 }
 
-.mini-title{
-    position: absolute;
-    width: 50%;
+.card__box__sign-in{
     top: 150px;
     text-align: center;
 
@@ -87,9 +86,7 @@ color: #6001D2;
     color: #808080;
 }
 
-.paragraph{
-    position: absolute;
-    width: 50%;
+.card__box__continue{
     top: 208px;
     text-align: center;
 
@@ -106,8 +103,7 @@ color: #6001D2;
 
 }
 
-.image-title{
-    position: absolute;
+.card__box__quote{
     width: 343px;
     height: 114px;
     margin-left: 2rem;
@@ -125,7 +121,7 @@ color: #6001D2;
 
 }
 
-.acc{
+.card__login__input--design{
     box-sizing: border-box;
     border-style:hidden;
     outline: none;
@@ -144,9 +140,7 @@ color: #6001D2;
     background: hsla(0, 0%, 100%, 0);
 }
 
-.forgot{
-    position: absolute;
-    width: 50%;
+.card__forgot{
     left: 2rem;
     top: 350px;
 
@@ -164,8 +158,7 @@ a:link{
 
 }
 
-button{
-    position: absolute;
+.card__btn{
     width: 100px;
     height: 43px;
     right: 34rem;
@@ -178,18 +171,16 @@ button{
     border-radius: 10px;
 }
 
-button:hover{
+.card__btn:hover{
     background: #6001D2;
     transition: 1s;
 }
 
-.next-button{
+.card__btn--next{
     color: #FFFFFF;
 }
 
-.checkbox{
-    position: absolute;
-    width: 50%;
+.card__checkbox__stay-signed{
     height: 25px;
     left: 1rem;
     bottom: 1rem;
@@ -208,9 +199,7 @@ button:hover{
 
 }
 
-.help{
-    position: absolute;
-    width: 50%;
+.card__help{
     height: 25px;
     right: 8rem;
     bottom: 1rem;
@@ -228,12 +217,13 @@ button:hover{
 
 }
 
-.language{
+.language__select{
     position: absolute;
     width: 132px;
     height: 25px;
     left: 2rem;
-    top: 590px;
+    top: auto;
+    bottom: 2rem;
     outline: none;
     cursor: pointer;
 
@@ -251,11 +241,11 @@ button:hover{
 }
 
 
-select option[value="English (US)"]{
+.language__select .language__select__option[value="English (US)"]{
     background-color: #720E9E;
 }
 
-select option[value="Tagalog"]{
+.language__select .language__select__option[value="Tagalog"]{
     background-color: #720E9E;
 }
 

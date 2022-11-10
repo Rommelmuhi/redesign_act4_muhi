@@ -13,51 +13,51 @@
 
     <div class="container">
 
-      <img src="images/Y!.png" alt="background-logo" class="background-Y">
+      <img src="images/Y!.png" alt="background-logo" class="background-design">
       
       <div class="card">
 
-        <div class="">
-          <img src="images/yahoo-logo-long.png" alt="" class="main-title">
-          <h5 class="subtitle">PHILIPPINES</h5>
-          <img src="images/yahoo design.jpg" alt="card-image">
-          <h2 class="image-title">DISCOVER NEW THINGS</h2>
+        <div class="card__box">
+          <img src="images/yahoo-logo-long.png" alt="" class="card__box__main-title card--absolute">
+          <h5 class="card__box__subtitle card--absolute card--half">PHILIPPINES</h5>
+          <img src="images/yahoo design.jpg" alt="card-image" class="card__box__img-nature card--absolute card--half">
+          <h2 class="card__box__quote card--absolute">DISCOVER NEW THINGS</h2>
         </div>
 
-        <h2 class="mini-title">Sign In</h2>
-        <p class="paragraph">Continue to Yahoo Messenger</p>
+        <h2 class="card__box__sign-in card--absolute card--half">Sign In</h2>
+        <p class="card__box__continue card--absolute card--half">Continue to Yahoo Messenger</p>
 
-        <div>
-          <label for="acc"></label>
-          <input type="email" id="acc" name="acc" class="acc" placeholder="Email or mobile number" minlength="8" required>
+        <div class="card__login">
+          <label for="acc" class="card__login__input"></label>
+          <input type="email" id="acc" name="acc" class="card__login__input__email card__login__input--design" placeholder="Email or mobile number" minlength="8" required>
 
           <label for="acc"></label>
-          <input type="password" id="acc" name="acc" class="acc" placeholder="Password" minlength="8" required>
+          <input type="password" id="acc" name="acc" class="card__login__input__password card__login__input--design" placeholder="Password" minlength="8" required>
         </div>
 
-        <a href="https://ph.help.yahoo.com/kb/SLN27051.html" class="forgot"><strong>Forgot?</strong></a>
+        <a href="https://ph.help.yahoo.com/kb/SLN27051.html" class="card__forgot card--absolute card--half"><strong>Forgot?</strong></a>
         
-        <button>
-          <a href="" class="next-button">Next</a>
+        <button class="card__btn card--absolute">
+          <a href="" class="card__btn--next">Next</a>
         </button>
 
 
-        <ul>
-          <label for="checkbox" class="checkbox">
+        <ul class="card__checkbox">
+          <label for="checkbox" class="card__checkbox__stay-signed card--absolute card--half">
             <li>
               <input type="checkbox" name="checkbox" id="checkbox">Stay signed in 
             </li>
           </label>
         </ul>
 
-        <a href="https://ph.help.yahoo.com/kb/account" class="help">Trouble signing in?</a>
+        <a href="https://ph.help.yahoo.com/kb/account" class="card__help card--absolute card--half">Trouble signing in?</a>
 
       </div>
 
-      <div style="width:200px;">
-        <select class="language">
-          <option value="English (US)" class="option">English (US)</option>
-          <option value="Tagalog" class="option">Tagalog</option>
+      <div style="width:200px;" class="language">
+        <select class="language__select">
+          <option value="English (US)" class="language__select__option">English (US)</option>
+          <option value="Tagalog" class="language__select__option">Tagalog</option>
         </select>
       </div>
 
